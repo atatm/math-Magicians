@@ -1,1 +1,1 @@
-# math-Magicians
+# math-Magicians app
