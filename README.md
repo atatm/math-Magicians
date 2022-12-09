@@ -80,7 +80,7 @@ Pleaseholder
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://atatm.github.io/math-magicians/dist/)
+- [Live Demo Link](https://atatm.github.io/math-magicians/)
 
 <!-- GETTING STARTED -->
 
