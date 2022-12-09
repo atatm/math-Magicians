@@ -1,5 +1,6 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/jsx-closing-tag-location */
+/* eslint-disable react/button-has-type */
 /* eslint class-methods-use-this: ["error", { "exceptMethods": ["render", "CreateButtons"] }] */
 /* eslint-env es6 */
 import React from 'react';
@@ -26,8 +27,11 @@ export default class Calculator extends React.Component {
   CreateButtons() {
     const btns = [];
     arrButtons.forEach((btn) => {
-      // eslint-disable-next-line react/button-has-type
-      btns.push(<button key={btn.key} className={btn.class} onClick={this.handleClick}>
+      btns.push(<button
+        key={btn.key}
+        className={btn.class}
+        onClick={this.handleClick}
+      >
         {btn.show}
       </button>);
     });
